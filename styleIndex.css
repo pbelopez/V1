@@ -1,44 +1,111 @@
 body {
-  font-family: sans-serif;
-  margin: 0;
-  padding: 0;
-  line-height: 1.6;
-  background-color: #f9f9f9;
-  color: #333;
+	margin: 0em;
 }
 
-header {
-  background: #4caf50;
-  color: white;
-  padding: 1em;
-  text-align: center;
+
+#containIntro {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+	padding: 5% 1% 1% 1%;
+	background-image: url("fallColor.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	color: white;
+
+
 }
 
-nav ul {
-  list-style: none;
-  padding: 0;
+.title {
+	display: flex;
+	justify-content: left;
+	font-size: 2em;
+	margin: 6em 0em 0em 5em;
+}
+	
+
+
+
+#containIntro button {
+	margin: 7em 0em 7em 20em;
+	width: 18em;
+	height: 6em;
+	background-color:#DDC22F;
+	border-radius: 1em;
+	border-color: transparent;
+	overflow: auto;
+
+
+
 }
 
-nav ul li {
-  display: inline;
-  margin: 0 10px;
+#containIntro a {
+	text-decoration: none;
+	color: #333;
+	font-family: serif, sans-serif;
+	font-size: 2em;
+
 }
 
-main {
-  padding: 2em;
+#containIntro h2 {
+	display: flex;
+	justify-content: left;
+	margin: 0em 0em 0em 5em;
+
 }
 
-section {
-  margin-bottom: 2em;
+#containServices {
+	display: flex;
+	justify-content: center;
+	align-content: space-evenly;
+	background-color: whitesmoke;
+	
 }
 
-h1, h2 {
-  color: #2e7d32;
+
+
+
+
+div.card{
+	width: 250 px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px;
+	text-align: center;
+	margin: 2em;
+
+}	
+
+div.header {
+	background-color: #333;
+	color: #ed8f51;
+	padding: 1em;
 }
 
-footer {
-  background: #ddd;
-  text-align: center;
-  padding: 1em;
-  font-size: 0.9em;
+div.container {
+	padding: 2em;
 }
+
+
+
+
+
+#blogPost {
+	text-align: center;
+}
+
+.boxModel {
+	display: inline-block;
+	border-block: solid black;
+	padding: 1em;
+	
+}
+
+
+	
+
+
+
+
+
+

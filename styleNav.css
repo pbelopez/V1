@@ -1,0 +1,81 @@
+
+#logoButton {
+
+	background-image: url("logo.jpg");
+	background-size: 20em;
+	background-repeat: no-repeat;
+	background-color: transparent;
+	border-color: transparent;
+	background-position: center;
+	height: 4em;
+	width: 25em;
+	cursor: pointer;
+
+}
+
+ul {
+	list-style-type: none;
+	margin: 0em;
+	padding: 0em;
+	overflow: hidden;
+	background-color: #333;
+
+}
+
+li {
+	float: left;
+
+}
+
+li a {
+	display: block;
+	color: whitesmoke;
+	text-align: center;
+	padding:1em 2em;
+	text-decoration: none;
+	
+}
+
+/* Winter background-color: #5B88F1;
+	Fall background-color: #DDC22F;
+*/
+
+li a:hover:not(.active) {
+	background-color: #DDC22F;
+	color:#333;
+}
+
+
+.active {
+	background-color: #DDC22F;
+	color: #333;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
