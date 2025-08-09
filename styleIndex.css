@@ -64,8 +64,72 @@ body {
 	
 }
 
+main {
+    max-width: 900px;
+    margin: 2rem auto;           /* More top & bottom margin for breathing room */
+    padding: 2rem 6rem;          /* More horizontal padding on desktop */
+    font-size: 1.1rem;           /* Slightly bigger font */
+    line-height: 1.6;            /* Improve readability */
+  /* background: #fff;              Optional: light background if main is distinct */
+    border-radius: 10px;         /* Softer edges */
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1); /* Slightly stronger shadow */
+}
+
+article {
+    margin-bottom: 5rem;
+    padding: 2.5rem 14.9rem;
+    border-radius: 8px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.08);
+}
+
+article h2 {
+    color: #2e7d32;
+    margin-top: 0;
+    font-size: 1.8rem;
+}
+
+article ul, article ol {
+    margin-left: 1.4rem;
+    margin-top: 1rem;
+    font-size: 1.05rem;
+}
+
+.tip {
+    background: #e8f5e9;
+    border-left: 6px solid #2e7d32;
+    padding: 0.8rem 1.2rem;
+    margin-top: 1.5rem;
+    border-radius: 5px;
+    font-size: 1.05rem;
+}
+
+footer {
+    background: #2e7d32;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 3rem;
+    font-size: 1rem;
+}
 
 
+
+@media only screen and (max-width: 600px) {
+    
+
+    main {
+        padding: 1rem 1.5rem;
+        font-size: 1rem;
+        margin: 1rem auto;
+        box-shadow: none;   
+        border-radius: 0;
+    }
+    article {
+        padding: 1rem;
+        box-shadow: none;
+    }
+
+ /*
 
 
 div.card{
@@ -100,7 +164,7 @@ div.container {
 	padding: 1em;
 	
 }
-
+*/
 
 	
 
