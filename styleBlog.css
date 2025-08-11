@@ -1,0 +1,35 @@
+body {
+	margin: 0em;
+}
+
+
+main {
+    max-width: 1200px;
+    margin: 2rem auto;           /* More top & bottom margin for breathing room */
+    padding: 2rem 6rem;          /* More horizontal padding on desktop */
+    font-size: 1.1rem;           /* Slightly bigger font */
+    line-height: 1.6;            /* Improve readability */
+  /* background: #fff;              Optional: light background if main is distinct */
+    border-radius: 10px;         /* Softer edges */
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1); /* Slightly stronger shadow */
+}
+
+
+article {
+    margin-bottom: 5rem;
+    padding: 2.5rem 14.9rem;
+    border-radius: 8px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.08);
+}
+
+article h2 {
+    color: #2e7d32;
+    margin-top: 0;
+    font-size: 1.8rem;
+}
+
+article ul, article ol {
+    margin-left: 1.4rem;
+    margin-top: 1rem;
+    font-size: 1.05rem;
+}
