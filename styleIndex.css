@@ -1,1 +1,52 @@
- 
+/* === Reset & Base ===*/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 16px;
+	scroll-behavior: smooth;
+}
+
+img {
+	max-width: 100%;
+	width: 25%;
+	max-height: 100%;
+	height: auto;
+}
+
+/* === Navbar ===*/
+
+nav {
+	position: sticky;
+	top: 0;
+	background: white;
+	padding: 1rem min(5%, 2rem);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 1px solid #ddd;
+    z-index: 100;
+
+}
+
+nav ul {
+	list-style: none;
+	display: flex;
+	gap: 1.5rem;
+
+}
+
+nav a {
+	text-decoration: none;
+	color: #333;
+	font-weight: 600;
+
+
+}
+
+nav a:hover {
+	color: #0077ff;
+}
