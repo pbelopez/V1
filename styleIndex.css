@@ -130,3 +130,18 @@ nav a:hover {
 	padding: 1.5rem;
 	box-shadow:  0 4px 10px rgba(0,0,0,0.05);
 }
+
+.card h3 {
+	margin: 1rem 0 0.5rem;
+}
+
+
+/*=== Footer ===*/
+
+footer {
+	text-align: center;
+	padding: 1rem;
+	font-size: .0875rem;
+	background-color:  #f0f0f0;
+}
+
