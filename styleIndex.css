@@ -13,8 +13,9 @@ html {
 img {
 	max-width: 100%;
 	width: 25%;
-	max-height: 100%;
-	height: auto;
+	max-height: 25%;
+	height: 5rem;
+	
 }
 
 /* === Navbar ===*/
@@ -22,7 +23,7 @@ img {
 nav {
 	position: sticky;
 	top: 0;
-	background: #333;
+	background: #353536;
 	padding: 1rem min(5%, 2rem);
 	display: flex;
 	justify-content: space-between;
@@ -30,6 +31,13 @@ nav {
 	border-bottom: 1px solid #ddd;
     z-index: 100;
 
+}
+
+nav img {
+	max-width: 100%;
+	width: 20%;
+	max-height: 100%;
+	height: 75%;
 }
 
 nav ul {
