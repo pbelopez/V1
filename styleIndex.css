@@ -42,7 +42,8 @@ nav {
 nav img {
 	max-width: 100%;
 	width: 20%;
-	height: auto;
+	max-height: 100%;
+	height: auto-fit;
 }
 
 nav ul {
