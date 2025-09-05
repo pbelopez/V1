@@ -50,6 +50,7 @@ nav img {
 nav ul {
 	list-style: none;
 	display: flex;
+	float: right;
 	gap: 1.5rem;
 
 }
