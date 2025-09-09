@@ -1,0 +1,44 @@
+/* === reset & base ===*/
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+
+html {
+	font-size: 16px;
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: system-ui, sans-serif;
+	line-height: 1.5;
+}
+
+
+
+/* === article section === */
+
+
+.article {
+	padding: clamp(2rem, 3vw, 4rem) min(5%, 2rem);
+	text-align: center;
+}
+
+
+.article h2 {
+	font-size: clamp(1.5rem, 2vw, 2.5rem);
+	margin-bottom: 1.5rem;
+	text-align: center;
+
+}
+
+
+
+.article li {
+	list-style: none;
+
+}
+
