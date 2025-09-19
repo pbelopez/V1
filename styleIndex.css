@@ -129,12 +129,18 @@ nav a:hover {
 	font-size: clamp(1rem, 2vw, 1.75rem);
 	margin-bottom: .5rem;
 	text-align: center;
+	text-decoration-line: overline;
 }
 
 .section p {
 	font-size: clamp(.75rem, 2vw, 1rem);
 	text-align: center;
 	margin-bottom: 1.5rem;
+}
+
+.section a {
+	text-decoration-line: none;
+	color: #353536;
 }
 
 /* === Responsive grid ===*/
