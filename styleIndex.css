@@ -67,21 +67,24 @@ nav a:hover {
 	color: #0077ff;
 }
 
+/* === Navbar ===*/
+
 /* === Hero ===*/
 
 .hero {
 	display: flex;
 	align-items: center;
-	justify-content: center;
+	justify-content: left;
 	text-align: center;
 	height: 80vh;
-	background-image: url("fallColor.jpg");
+	background-image: url("Winter.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
 	color: whitesmoke;
 	padding: 0 1rem;
-	margin-bottom: 2rem;
+	border-bottom: 1px solid #ddd
+	
 }
 
 .hero h1 {
@@ -110,6 +113,36 @@ nav a:hover {
 .btn:hover {
 	background: #e6e6e6;
 }
+
+/* === Hero ===*/
+
+/* === About ===*/
+
+
+#about {
+	color: #353536;
+	background-image: url("aboutWinter.jpg");
+	background-repeat: no-repeat;
+	background-position: top;
+	background-size: cover;
+	height: 50vh;
+	border-bottom: 1px solid #ddd
+}
+
+#about h2 {
+	font-size: clamp(2rem, 5vw, 3.5rem);
+	max-width: 40rem;
+}
+
+#about p {
+
+	font-size: clamp(1rem, 2vw, 1.25rem);
+	margin: 1rem 0 2rem;
+}
+
+
+/* === About ===*/
+
 
 /* === Content sections ===*/
 
@@ -142,6 +175,8 @@ nav a:hover {
 	text-decoration-line: none;
 	color: #353536;
 }
+
+/* === Content sections ===*/
 
 /* === Responsive grid ===*/
 
@@ -176,6 +211,7 @@ nav a:hover {
 	margin: 1rem 0 0.5rem;
 }
 
+/* === Responsive grid ===*/
 
 /*=== Footer ===*/
 
@@ -192,4 +228,7 @@ footer {
 	
 
 }
+
+/*=== Footer ===*/
+
 

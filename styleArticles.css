@@ -1,31 +1,5 @@
-/* === reset & base ===*/
+/* === Article === */
 
-* {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-
+img {
+	border-radius: 1rem;
 }
-
-html {
-	font-size: 16px;
-	scroll-behavior: smooth;
-}
-
-body {
-	font-family: system-ui, sans-serif;
-	line-height: 1.5;
-}
-
-Img .plant {
-	height: 400px;
-	width: 400px;
-}
-
-
-
-
-
-/* === section === */
-
-
