@@ -25,6 +25,8 @@ img {
 	
 }
 
+/* === Reset & Base ===*/
+
 /* === Navbar ===*/
 
 nav {
@@ -81,7 +83,7 @@ nav a:hover {
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
-	color: whitesmoke;
+	color: #353536;
 	padding: 0 1rem;
 	border-bottom: 1px solid #ddd
 	
@@ -92,10 +94,7 @@ nav a:hover {
 	max-width: 40rem;
 }
 
-.hero p {
-	font-size: clamp(1rem, 2vw, 1.25rem);
-	margin: 1rem 0 2rem;
-}
+
 
 .btn {
 	font-size: 1rem;
@@ -106,6 +105,16 @@ nav a:hover {
 	color: #0077ff;
 	font-weight: bold;
 	cursor: pointer;
+	
+
+
+
+}
+
+
+.btn a{
+	text-decoration: none;
+	color: #0077ff;
 
 
 }
@@ -121,23 +130,24 @@ nav a:hover {
 
 #about {
 	color: #353536;
-	background-image: url("aboutWinter.jpg");
-	background-repeat: no-repeat;
-	background-position: top;
-	background-size: cover;
-	height: 50vh;
 	border-bottom: 1px solid #ddd
+
 }
 
 #about h2 {
 	font-size: clamp(2rem, 5vw, 3.5rem);
 	max-width: 40rem;
+	text-align: center;
+	justify-content: center;
+	color: whitesmoke;
+
 }
 
 #about p {
 
 	font-size: clamp(1rem, 2vw, 1.25rem);
 	margin: 1rem 0 2rem;
+	color: whitesmoke;
 }
 
 
