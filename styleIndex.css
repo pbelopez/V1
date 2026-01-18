@@ -27,7 +27,85 @@ img {
 
 /* === Reset & Base ===*/
 
-/* === Navbar ===*/
+/* === Navbar === */
+nav {
+  position: sticky;
+  top: 0;
+  background: #353536;
+  padding: 1rem min(5%, 2rem);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+  z-index: 100;
+  transition: padding 0.4s ease; /* smooth shrink */
+}
+
+.brand {
+  position: relative; /* for absolute positioning of compact logo */
+  display: flex;
+  align-items: center;
+}
+
+.logo-full,
+.logo-compact {
+  height: 2.5rem; /* adjust to fit your full logo nicely */
+  width: auto;
+  display: block;
+  transition: opacity 0.4s ease, transform 0.4s ease;
+}
+
+.logo-compact {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 2rem; /* usually a bit smaller when scrolled */
+  opacity: 0;
+  pointer-events: none; /* ignore clicks when hidden */
+}
+
+/* Scrolled state */
+nav.scrolled {
+  padding: 0.6rem min(5%, 2rem); /* smaller vertical padding */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.25); /* optional deeper shadow */
+}
+
+nav.scrolled .logo-full {
+  opacity: 0;
+  transform: translateX(-20px); /* slight slide left for polish */
+  pointer-events: none;
+}
+
+nav.scrolled .logo-compact {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+/* Fix your list styles – remove float, use flex */
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: whitesmoke;
+  font-weight: 600;
+}
+
+nav a:hover {
+  color: #0077ff;
+}
+
+
+
+
+
+/* === Navbar 
 
 nav {
 	position: sticky;
@@ -45,8 +123,8 @@ nav {
 nav img {
 	max-width: 100%;
 	width: auto-fit;
-	max-height: 100%;
-	height: auto-fit;
+	max-height: %;
+	height: 2.25rem;
 }
 
 nav ul {
@@ -69,7 +147,7 @@ nav a:hover {
 	color: #0077ff;
 }
 
-/* === Navbar ===*/
+ Navbar ===*/
 
 /* === Hero ===*/
 

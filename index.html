@@ -8,19 +8,70 @@
 </head>
 
 <body>
+
+
 <!-- Navbar -->
+<nav>
+  <div class="brand">
+    <!-- Full version visible at top -->
+    <a href="index.html">
+      <img src="LogoV8.jpg" alt="Brand Name and logo" class="logo-full">
+    </a>
+    <!-- Compact logo-only – hidden at top, shown when scrolled -->
+    <a href="index.html">
+      <img src="logoV6.png" alt="Logo" class="logo-compact">
+    </a>
+  </div>
+
+  <ul>
+    <li><a href="about.html">About</a></li>
+    <li><a href="services.html">Services</a></li>
+    <li><a href="blog.html">Blog</a></li>
+  </ul>
+</nav>
+
+<script>
+  window.addEventListener('scroll', function() {
+    const nav = document.querySelector('nav');
+    // Change 120 to whatever pixel value feels right (test on mobile/desktop)
+    if (window.scrollY > 120) {
+      nav.classList.add('scrolled');
+    } else {
+      nav.classList.remove('scrolled');
+    }
+  });
+</script>
+<!-- Navbar -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Navbar 
 	
 
 	<nav>
+		<div class="logo"><a href="index.html"><img src="LogoV8.jpg" alt="logo"></a></div>
 		<ul>
-		<div class="logo"><a href="index.html"><img src="LogoV7.jpg" alt="logo"></a></div>
 			<li><a href="about.html">About</a></li>
 			<li><a href="services.html">Services</a></li>
 			<li><a href="blog.html">Blog</a></li>
 		</ul>
 	</nav>
 	
-<!-- Navbar -->
+ Navbar -->
 
 <!--- Hero --->
 
