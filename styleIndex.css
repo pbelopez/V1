@@ -59,7 +59,7 @@ nav {
   position: absolute;
   left: 0;
   top: 60%;
-  transform: translateY(-10%);
+  transform: translateY(-50%);
   height: 3rem; /* usually a bit smaller when scrolled */
   opacity: 0;
   pointer-events: none; /* ignore clicks when hidden */
