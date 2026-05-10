@@ -49,7 +49,7 @@ nav {
 
 .logo-full,
 .logo-compact {
-  height: 2.5rem; /* adjust to fit your full logo nicely */
+  height: 3rem; /* adjust to fit your full logo nicely */
   width: auto;
   display: block;
   transition: opacity 0.4s ease, transform 0.4s ease;
@@ -60,7 +60,7 @@ nav {
   left: 0;
   top: 50%;
   transform: translateY(-50%);
-  height: 2rem; /* usually a bit smaller when scrolled */
+  height: 3rem; /* usually a bit smaller when scrolled */
   opacity: 0;
   pointer-events: none; /* ignore clicks when hidden */
 }
