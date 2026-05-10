@@ -49,7 +49,7 @@ nav {
 
 .logo-full,
 .logo-compact {
-  height: 3rem; /* adjust to fit your full logo nicely */
+  height: 2.5rem; /* adjust to fit your full logo nicely */
   width: auto;
   display: block;
   transition: opacity 0.4s ease, transform 0.4s ease;
@@ -102,6 +102,35 @@ nav a:hover {
 }
 
 
+.mobile-container {
+	max-width: 480px;
+  margin: auto;
+  background-color: #555;
+  height: 500px;
+  color: white;
+  border-radius: 10px;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+}
+
+.topnav #myLinks {
+  display: none;
+}
+
+.topnav ul {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+
+/* === Navbar end=== */
 
 .hero {
 	display: flex;
