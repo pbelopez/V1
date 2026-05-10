@@ -32,7 +32,7 @@ nav {
   position: sticky;
   top: 0;
   background: #353536;
-  padding: 1rem min(5%, 2rem);
+  padding: 1rem min(15%, 2rem);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -49,7 +49,7 @@ nav {
 
 .logo-full,
 .logo-compact {
-  height: 2.5rem; /* adjust to fit your full logo nicely */
+  height: 3rem; /* adjust to fit your full logo nicely */
   width: auto;
   display: block;
   transition: opacity 0.4s ease, transform 0.4s ease;
